@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+:root {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(41, 50, 70, 0.8);
+  color: #000;
+  display: none;
+  z-index: 1;
+}
+.overlay.show {
+  display: block;
+}
+.link svg.icon.upIcon {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+}
+.link svg.icon.upIcon.fa-file-alt {
+  height: 35px;
+}
